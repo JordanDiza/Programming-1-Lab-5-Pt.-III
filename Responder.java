@@ -3,6 +3,7 @@ import java.util.HashSet;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Random;
+import java.util.Map;
 
 /**
  * The responder class represents a response generator object.
@@ -172,5 +173,10 @@ public class Responder
         // The number will be between 0 (inclusive) and the size of the list (exclusive).
         int index = randomGenerator.nextInt(defaultResponses.size());
         return defaultResponses.get(index);
+        
     }
+    public Map<String,String> getRespnseMap() 
+    { 
+    return responseMap;
+    } 
 }
