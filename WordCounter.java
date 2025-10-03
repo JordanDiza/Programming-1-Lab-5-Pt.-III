@@ -4,8 +4,8 @@ import java.util.HashSet;
 /**
  * Keep a record of how many times each word was entered by users.
  * 
- * @author  Michael Kölling and David J. Barnes
- * @version 7.0
+ * @author  John Bobby
+ * @version 6.7
  */
 public class WordCounter
 {

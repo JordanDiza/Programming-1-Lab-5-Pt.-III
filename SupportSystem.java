@@ -10,9 +10,8 @@ import java.util.HashSet;
  * that repeatedly reads input and generates output until the users wants to 
  * leave.
  * 
- * @author  Michael Kölling and David J. Barnes
- * @version 7.4
- */
+ * @author  John Bobby
+ * @version 6.7 */
 public class SupportSystem
 {
     private InputReader reader;
