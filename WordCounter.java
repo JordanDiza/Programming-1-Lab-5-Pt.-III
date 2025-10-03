@@ -31,4 +31,11 @@ public class WordCounter
             counts.put(word, counter + 1);
         }
     }
+    
+    public void printsWordCounts() 
+    {
+        for (String word : counts.keySet()){
+            System.out.println(word + ":" + counts.get(word));
+        }
+    }   
 }
